@@ -92,13 +92,13 @@ print(lista)
 # E
 # EEEEEE
 # Etapy wykonania ćwiczenia:
-# Deklarujemy jedną następującą listę [1,2,3,4,5,6].
+# Deklarujemy jedną następującą listę [1,2,3,4,5].
 # Następnie za pomocą pętli i instrukcji warunkowej wykonujemy odpowiednie działania.
 # Trzeba wykorzystać zagnieżdżenia.
 print('###########ZAD9############')
-lista = [1, 2, 3, 4, 5, 6]
-for i in range (1, len(lista)):
-    if i % 2 == 1:
+lista = [1, 2, 3, 4, 5]
+for i in range (0, len(lista)):
+    if i % 2 == 0:
         print('EEEEE')
     else:
         print('E')
